@@ -26,9 +26,6 @@ func update_score(score):
 	$ScoreLabel.text = str(score)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
 
 func _on_start_button_pressed():
 	$StartButton.hide()
